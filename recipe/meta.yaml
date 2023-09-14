@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,7 +25,7 @@ requirements:
     - pip
   run:
     - python >=3.10.0
-    - jupyterlab >=3.2.3,<4.0.0
+    - jupyterlab >=2.0.0 # https://github.com/IBM/jupyterlab-s3-browser/blob/0.12.0/setup.py#L100
     - notebook
     - boto3
     - s3fs >=2021.10.1
@@ -41,7 +41,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/IBM/jupyterlab_s3_browser
+  home: https://github.com/IBM/jupyterlab-s3-browser
   summary: JupyterLab extension for browsing S3-compatible object storage
   license: Apache-2.0
   license_file: LICENSE
