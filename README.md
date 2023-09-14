@@ -3,7 +3,7 @@ About jupyterlab-s3-browser-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-s3-browser-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/IBM/jupyterlab_s3_browser
+Home: https://github.com/IBM/jupyterlab-s3-browser
 
 Package license: Apache-2.0
 
